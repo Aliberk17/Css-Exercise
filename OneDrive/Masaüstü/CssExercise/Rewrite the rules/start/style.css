@@ -1,0 +1,18 @@
+:root {
+    --bodybackground-color: #011212;
+    --en: 100px;
+    --boy: 100px;
+    --hudut-radius: 50px;
+    --ballbackground-color: #ff8800;
+}
+
+.ball {
+    width: var(--en);
+    height: var(--boy);
+    background-color: var(--ballbackground-color);
+    border-radius: var(--hudut-radius);
+}
+
+body {
+    background-color: var(--bodybackground-color);
+}
