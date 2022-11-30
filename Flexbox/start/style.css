@@ -1,0 +1,37 @@
+nav{
+    display: flex;
+    flex-direction: column;
+}
+#sidebar{
+    height: 100vh;
+    background-color: aquamarine;
+    width: 200px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;  
+}
+nav a{
+    text-decoration: none;
+    color: #2b2b2b;
+    font-size: 24px;
+}
+
+nav a:hover{
+    color: #2b2bb2;
+    transition:0.3s;
+}
+
+.userData{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.userData>img{
+    border: 5px solid greenyellow;
+    width: 50px;
+    border-radius: 50%;
+}
+.logo{
+    text-align: center;
+}
