@@ -1,0 +1,16 @@
+article{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    padding: 1rem;
+}
+img{
+    max-width: 300px;
+}
+div.links a{
+    display: inline;
+    margin-right: 15px;
+}
+
+
+    
