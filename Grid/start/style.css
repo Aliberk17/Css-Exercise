@@ -1,0 +1,34 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr); 
+    border: 2px solid black;
+    padding: 0;
+    width: 300px;
+    text-align: center;  
+}
+.box{
+    background-color: #424c52;
+    border: 1px solid #abb9c6;;
+    padding: 10px 5px;
+}
+.total{
+    grid-column: 1/span 4;
+    display: flex;
+    padding: 6px;
+    justify-content: flex-end;
+    color: white;
+}
+.equal{
+    grid-row: 3/span 4;
+    grid-column: 4/ span 1;
+    background-color: #f77077;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mark{
+    background-color:#d2dce4;
+}
+.number {
+    background-color: #eff2f5;
+}
